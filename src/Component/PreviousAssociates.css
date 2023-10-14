@@ -1,0 +1,60 @@
+
+.previousHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    color: #311581;
+    font-size: 15px;
+    margin:0px auto;
+    padding: 40px 0;
+}
+
+.pastAssociates{
+    background-color: #F5f5F5F5;
+}
+
+.pastAssociatesDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.pastAssociatesSecondDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   gap: 20px;
+
+}
+
+.pastAssociatesImage{
+    width: 150px;
+    background-color: white;
+    height: 90px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.imagee1{
+    transition: all ease-in 200ms;
+  }
+  
+  .imagee1:hover{
+    box-shadow: 5px 5px 5px rgb(210, 210, 210), -5px -5px 5px rgb(210, 210, 210);
+    transform: scale(1.1);
+  }
+
+  .previousAssociatesBtn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    border-radius: 5px;
+  }

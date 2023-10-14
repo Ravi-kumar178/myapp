@@ -1,0 +1,241 @@
+/* .agendaHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    color: #003A8C;
+    font-size: 23px;
+    margin:20px auto;
+}
+
+.agendaSecondDiv{
+    background-color: #003A8C;
+    width:5%;
+    height: 4px;
+}
+
+.agendaImg{
+    width: 100%;
+    height:400px;
+}
+
+.agendaFirstDiv{
+    margin:30px auto;
+}
+
+.track{
+    background: linear-gradient(to bottom right, #1D7CCF 41%, #CFB8A1 96%);
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    height:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11/12;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.trackDiv{
+    width:11/12;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+.trackTime{
+    color: #311581;
+}
+
+.trackHead{
+    color:#1D7CCF;
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.register {
+    
+    display: inline-block;
+    padding: 10px 40px;
+    text-align: center;
+    color: white;
+    background: #1D7CCF; /* default color */
+   /* border-radius: 6px;
+    font-size: 18px;
+    /* "to left" / "to right" - affects initial color ...!!!
+    background: linear-gradient(to left, #1D7CCF 50%, rgb(218, 224, 231) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.register:hover {
+    background-position: left;
+    color: #1D7CCF;
+    transform: scaleX(1.05);
+}
+
+.trackSecondDiv{
+    width:11/12;
+    max-width: 1080px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    padding: 20px;
+    padding-bottom: 30px;
+    
+}
+
+.trackSecondHead{
+    color:#1D7CCF;
+    margin-right:185px ;
+    font-size: 25px;
+}
+
+.trackThirdHead{
+    color:#1D7CCF;
+    margin-right:-75px ;
+    font-size: 25px;
+}
+
+.trackFourthHead{
+    color:#1D7CCF;
+    margin-right: 47px;
+    font-size: 25px;
+}
+
+.trackFifthHead{
+    color:#1D7CCF;
+    margin-right: 53px;
+    font-size: 25px;
+}
+
+
+.trackSixthHead{
+    color:#1D7CCF;
+    margin-right: 205px;
+    font-size: 25px;
+}
+
+.trackSeventhHead{
+    color:#1D7CCF;
+    margin-right: 100px;
+    font-size: 25px;
+}
+
+.trackEigthHead{
+    color:#1D7CCF;
+    margin-right: 145px;
+    font-size: 25px;
+}
+
+.trackNinthHead{
+    color:#1D7CCF;
+    margin-right: 150px;
+    font-size: 25px;
+}
+
+.trackTenthHead{
+    color:#1D7CCF;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.trackTwilthHead{
+    color:#1D7CCF;
+    margin-right: 145px;
+    font-size: 25px;
+}
+
+.trackThirteenHead{
+    color:#1D7CCF;
+    margin-right: 35px;
+    font-size: 25px;
+}
+
+.trackEleventhHead{
+    color:#1D7CCF;
+    margin-right: 230px;
+    font-size: 25px;
+}
+
+ */
+
+.agendaFirstDiv{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    
+}
+
+.agendaHeading2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    color: #311581;
+    font-size: 21px;
+    margin:20px auto;
+   
+}
+
+.agendaSecondDiv{
+    background-color: #311581;
+    width:5%;
+    height: 4px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.col1{
+   color: #311581;
+   font-weight: 700;
+   font-size: 20px;
+}
+
+.col2{
+    color:#311581;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.col3{
+    color: #606061;
+    font-weight: 500;
+}
+
+.col5{
+    height: 60px;
+  
+   
+}
+
+.tab{
+    margin-top: 2%;
+}
+

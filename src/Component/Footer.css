@@ -1,0 +1,42 @@
+.footStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.footerFirstDiv{
+    background-color: #8b8b8b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.footerFirstHead{
+    color: white;
+    font-size: 20px;
+}
+
+.footerSecondDiv{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footerSecondHeading{
+    padding-right: 30px;
+    font-size: 18px;
+    border-right: 1px solid red;
+    color:white;
+    font-weight: 300;
+}

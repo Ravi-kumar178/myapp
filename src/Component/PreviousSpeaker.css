@@ -1,0 +1,293 @@
+.firstSpeaker{
+    margin-top: 250px;
+  }
+  
+  .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    
+   .galleryImage {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      margin: 10px;
+    }
+    
+    button {
+      margin: 20px auto;
+      text-align: center;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  
+    .galleryDiv{
+       margin-left: 600px ;
+    }
+    
+    .speakerHeading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1%;
+        color: #311581;
+        font-size: 15px;
+        margin:0px auto;
+        padding: 40px 0;
+    }
+
+    .prevSpeaButt{
+      transform: translateX(-100%);
+    }
+
+   /*  .FourCardSecondDiv{
+      width: 11/12;
+      max-width: 1080px;
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .FourCardThirdDiv{
+      width: 23%;
+      height: 310px;
+      min-height: fit-content;
+      background-color: white;
+      filter:grayscale(40%);
+      transition: all ease-in 200ms;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding-bottom:2% ;
+      padding-top: 2%;
+    }
+  
+    .FourCardThirdDiv:hover{
+      transform: scale(1.03);
+      box-shadow: 5px 5px 5px #ece9e9, -5px -5px 5px #ece9e9;
+      filter: grayscale(0);
+    }
+  
+    .prevCardImage{
+      width: 70%;
+      height:155px;
+      border-radius: 50%;
+      transform: translateY(0%);
+    }
+  
+    .prevCardImage1{
+      width: 65%;
+      height:190px;
+      border-radius: 50%;
+      transform: translateY(-5%);
+    }
+
+    .prevCardImage2{
+      width: 70%;
+      height:190px;
+      border-radius: 50%;
+      transform: translateY(-2%);
+    }
+
+    .prevCardImage3{
+      width: 60%;
+      height:160px;
+      border-radius: 50%;
+      transform: translateY(3%);
+    }
+
+    .prevCardImage4{
+      width: 70%;
+      height:170px;
+      border-radius: 50%;
+      transform: translateY(-8%);
+    }
+
+    .prevCardImage5{
+      
+    }
+  
+    .FourCardImage2{
+      width: 58%;
+      height:250px;
+      border-radius: 50%;
+      transform: translateY(2%);
+    }
+  
+    .FourCardHeading{
+      font-size: 16px;
+      text-align: center;
+      color: #311581;
+      font-weight: 700;
+    }
+  
+    .FourCardFirstPara{
+      text-align: center;
+      padding-top: 2%;
+      opacity:0.8;
+      color: #1f1e22;
+      font-size: 14px;
+    }
+  
+     */
+
+     .speakerFourCardFirstDiv{
+       width: 100%;
+     }
+
+     .speakerFourCardSecondDiv{
+    
+      max-width: 1080px;
+      width: 11/12;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 4%;
+      
+    }
+  
+    .speakerFourCardThirdDiv{
+      width: 17%;
+      min-height: fit-content;
+      height: 320px;
+      background-color: white;
+      filter:grayscale(40%);
+      transition: all ease-in 200ms;
+      margin-top: 2%;
+      /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 5%; */
+      padding-bottom:2% ;
+      /*padding-top: 2%; */
+    }
+  
+    .speakerFourCardThirdDiv:hover{
+      transform: scale(1.03);
+      box-shadow: 5px 5px 5px #ece9e9, -5px -5px 5px #ece9e9;
+      filter: grayscale(0);
+    }
+  
+    .speakerprevCardImage{
+      width: 100%;
+      height: 150px;
+    }
+  
+  /*   .FourCardImage1{
+      width: 70%;
+      height:170px;
+      border-radius: 50%;
+      transform: translateY(3%);
+    }
+  
+    .FourCardImage2{
+      width: 58%;
+      height:250px;
+      border-radius: 50%;
+      transform: translateY(2%);
+    } */
+  
+    .speakerFourCardFourDiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .speakerFourCardHeading{
+      font-size: 15px;
+      text-align: center;
+      color: #311581;
+      font-weight: 700;
+      margin-top: 15%;
+    }
+  
+  
+  
+    .speakerFourCardFirstPara{
+      text-align: center;
+      padding-top: 2%;
+      opacity:0.8;
+      color: #1f1e22;
+      font-size: 12px;
+    }
+  
+  
+  
+    .speakerEightCardSecondDiv{
+      
+      max-width: 1080px;
+      width: 11/12;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 4%;
+      
+    }
+  
+    .speakerEightCardThirdDiv{
+      width: 17%;
+      min-height: fit-content;
+      height: 340px;
+      background-color: white;
+      filter:grayscale(40%);
+      transition: all ease-in 200ms;
+      margin-top: 2%;
+      /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 5%; */
+      padding-bottom:2% ;
+      /*padding-top: 2%; */
+     
+    }
+  
+    .speakerEightCardThirdDiv:hover{
+      transform: scale(1.03);
+      box-shadow: 5px 5px 5px #ece9e9, -5px -5px 5px #ece9e9;
+      filter: grayscale(0);
+    }
+  
+    .speakerprevCardImage{
+      width: 100%;
+      height: 150px;
+    }
+  
+    .EightCardFourthDiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .speakerEightCardHeading{
+      font-size: 15px;
+      text-align: center;
+      color: #311581;
+      font-weight: 700;
+      margin-top: 15%;
+    }
+  
+  
+  
+    .speakerEightCardFirstPara{
+      text-align: center;
+      padding-top: 2%;
+      opacity:0.8;
+      color: #1f1e22;
+      font-size: 12px;
+    }

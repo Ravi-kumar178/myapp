@@ -1,0 +1,60 @@
+.firstPartner{
+    margin-top: 20px;
+    background-color: #F5F5F5F5;
+    height: 100px;
+   
+  }
+
+  .partnerHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    color: #311581;
+    font-size: 16px;
+    margin:0px auto;
+    background-color: #F5F5F5F5;
+    padding: 40px 0;
+  }
+
+  .partnerSecondDiv{
+    background-color: #311581;
+    width:5%;
+    height: 4px;
+   
+  }
+
+  .partnerText{
+   
+  }
+  
+  .partner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+      
+    }
+    
+   .partnerImage {
+      width: 200px;
+      height: 100px;
+      object-fit: cover;
+      margin: 10px;
+    }
+    
+    button {
+      margin: 20px auto;
+      text-align: center;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  
+    .galleryDiv{
+       margin-left: 600px ;
+    }
+    
